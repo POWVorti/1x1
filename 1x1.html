@@ -374,7 +374,7 @@
                     this.playSound('success');
                     this.ui.feedbackMessage.textContent = 'Richtig!';
                     this.ui.feedbackMessage.className = 'h-8 text-xl text-center font-semibold text-green-500';
-                    setTimeout(() => this.nextTask(), 300);
+                    setTimeout(() => this.nextTask(), 1000);
                 } else {
                     this.playSound('fail');
                     this.errorCount++;
